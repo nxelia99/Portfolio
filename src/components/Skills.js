@@ -36,7 +36,7 @@ export  const Skills = () => {
                                Get to know me!
                            </h2>
                            <p>My name is Noelia and I have a passion for technology, from software engineering to client-side applications.
-                               Started as a autodidact and now I'm currently studying
+                               Started as a autodidact and now I am currently studying Multplatform Software development.
                                In addition to my love for technology and design, I am also interested in literature, education, history, economics and politics.
                                In the projects section are some of the projects I have developed so far.</p>
                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
