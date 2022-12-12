@@ -258,13 +258,11 @@ button > a:hover{
   50% {
     transform: translateY(20px);
   }
-  75% {
+  100% {
     transform: translateY(-20px);
   }
-  100% {
-    transform: translateY(0px);
-  }
 }
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
