@@ -36,6 +36,16 @@ export const Backend = () => {
                         </div>
                     </div>
 
+<<<<<<< HEAD
+=======
+                    <div className="skills_data">
+                        <i className='bx bxl-django'></i>
+                        <div>
+                            <h5 className="skills_name">Django</h5>
+                        </div>
+                    </div>
+
+>>>>>>> 4ec99eb3d0b8922bcc785fb8768c77bbd6931203
                 </div>
             </div>
         </div>
