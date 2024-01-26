@@ -373,11 +373,10 @@ button > a:hover{
 }
 
 .skills_content{
-  background-color: rgba(79, 79, 79, 0.27);
+  background-color: rgba(61, 61, 61, 0.27);
   text-align: center;
   padding: 2rem 4rem;
-  box-shadow: 0 0 8px 8px #2a2a2a;;
-  width: 50%;
+  width: 60%;
   min-height: 350px;
 
 }
@@ -401,10 +400,9 @@ button > a:hover{
 .skills_group{
   display: grid;
   align-items: flex-start;
-  row-gap: 1.5rem;
-  column-gap: 3rem;
+  row-gap: 3rem;
+  column-gap: 5rem;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .skills_data{
@@ -504,6 +502,7 @@ button > a:hover{
   tansform: translate(6px, -7px);
 }
 
+
 /* Projects */
 
 .Projects{
@@ -517,8 +516,6 @@ button > a:hover{
 .technologies{
   margin: auto 5%;
 }
-
-
 
 
 .projects{
@@ -776,6 +773,7 @@ textarea{
   .banner{
     margin-top: -20%;
   }
+
   .qualification_data{
     margin-top: 15%;
     margin-left: 10%;
@@ -783,6 +781,9 @@ textarea{
   }
   .languages_container{
     flex-direction: column;
+  }
+  .skills_data i{
+    font-size: 25px;
   }
   .container-contact{
     flex-direction: column;
