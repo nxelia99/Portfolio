@@ -2,8 +2,6 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 import {useEffect, useState} from "react";
 import logo from '../assets/img/nxlogo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/twitter.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
 import React from "react";
 
 export const NavBar = () => {

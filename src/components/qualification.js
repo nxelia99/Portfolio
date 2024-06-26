@@ -82,7 +82,6 @@ export const Qualification = () => {
                                 </div>
                            </div>
                     </div>
-
         </section>
     )
 }
