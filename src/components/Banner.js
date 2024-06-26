@@ -18,7 +18,7 @@ export const Banner = () => {
                             <span class="mx-2">•</span>
                             <p class="purple text-center text-lg-left mb-0">Back End Developer</p>
                             <span class="mx-2">•</span>
-                            <p class="text-center text-lg-left mb-0">Data Scientist/Analyst</p>
+                            <p class="text-center text-lg-left mb-0">Aspiring Data Scientist/Analyst</p>
                         </div>
 
 
