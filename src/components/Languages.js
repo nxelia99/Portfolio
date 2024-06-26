@@ -9,7 +9,6 @@ export const Languages = () => {
         <section className="languages section  mt-5 mb-5" id="technicallevels">
             <h2 className="section_title">My technical levels</h2>
             <div className="languages_container container">
-                <Frontend />
                 <Backend />
             </div>
         </section>

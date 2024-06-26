@@ -6,46 +6,23 @@ import React from "react";
 import CV from "../CV/CV.pdf";
 
 export const Banner = () => {
-    const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const [text, setText] = useState('')
-    const toRotate = ["Full Stack Developer."];
-    const period = 2000;
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-
-    useEffect (() => {
-        let ticker =setInterval(() => {
-            tick();
-        },delta)
-        return () => {clearInterval(ticker)};
-    }, [text])
-
-    const tick = () =>{
-        let i = loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
-
-        setText(updatedText);
-        if (isDeleting){
-            setDelta(prevDelta => prevDelta /2)
-        }
-        if (!isDeleting && updatedText === fullText){
-            setIsDeleting(true);
-            setDelta(period);
-        }else if (isDeleting && updatedText === ''){
-            setIsDeleting(false);
-            setLoopNum(loopNum + 1);
-            setDelta(500);
-        }
-    }
-
     return (
         <section className="banner mt-0" id="home">
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <h1>{"Hi I'm Noelia, a "}<span className="wrap">{text}</span> </h1>
-                        <p>I'm a Full Stack developer focused on building Websites and Applications that leads to the success of the overall product.</p>
+                        <h1><span>Noelia</span></h1>
+                        <h1><span className="purple">Fdez</span></h1>
+                        <div class="d-flex flex-row align-items-center mt-3">
+                            <p class="text-center text-lg-left mb-0">Full Stack Developer</p>
+                            <span class="mx-2">•</span>
+                            <p class="purple text-center text-lg-left mb-0">Back End Developer</p>
+                            <span class="mx-2">•</span>
+                            <p class="text-center text-lg-left mb-0">Data Scientist/Analyst</p>
+                        </div>
+
+
+                        <p className="mt-5">I'm a Full Stack developer focused on Back End, building Websites and Applications that leads to the success of the overall product. I'm also focusing my professional career on Data Science and Data Analytics</p>
                         <div className="buttons">
                             <button className="download"><a download="Noelia-CV-Eng&Esp" href={CV}>Download CV (Eng&Esp)</a></button>
                             <button onClick={()=> console.log('connect')}><a href="#Contact">Let's connect<ArrowRightCircle size={25} /></a></button>

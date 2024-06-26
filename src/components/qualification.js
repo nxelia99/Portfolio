@@ -8,22 +8,9 @@ export const Qualification = () => {
     };
     return(
         <section className="qualification section" id="qualification">
-            <h1 className="section_title">Qualification</h1>
-            <span className="section_subtitle">My personal journey</span>
+            <h1 className="section_title purple fw-bold">Qualification</h1>
 
             <div className="qualification_container container">
-                <div className="qualification_tabs">
-                    <div className={toggleState === 1 ? "qualification_button qualification_active button-flex" : "qualification_button button--flex" }  onClick={() => toggleTab(1)}>
-                        <i className="uil uil-graduation-cap qualification_icon"> </i>
-                        Education
-                    </div>
-                        <div className={toggleState === 2 ? "qualification_button qualification_active button-flex" : "qualification_button button--flex"} onClick={() => toggleTab(2)}>
-                            <i className="uil uil-briefcase-alt qualification_icon"> </i>
-                            Experience
-                        </div>
-                </div>
-                <div className="qualification_sections">
-                    <div className={toggleState === 1 ? "qualification_content qualification_content-active": "qualification_content"}>
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">Google IT Support Professional Certificate</h3>
@@ -95,8 +82,7 @@ export const Qualification = () => {
                                 </div>
                            </div>
                     </div>
-                </div>
-            </div>
+
         </section>
     )
 }

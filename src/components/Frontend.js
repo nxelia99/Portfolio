@@ -51,6 +51,3 @@ export const Frontend = () => {
         </div>
     )
 }
-
-
-

@@ -32,28 +32,32 @@ export  const Skills = () => {
                 <Row>
                     <Col>
                        <div className="skill-bx">
-                           <h2>
+                           <h2 className="purple fw-bold">
                                Get to know me!
                            </h2>
-                           <p>My name is Noelia and I have a passion for technology, from software engineering to client-side applications.
-                               Started as a autodidact and now I am currently studying Multplatform Software development.
-                               In addition to my love for technology and design, I am also interested in literature, education, history, economics and politics.
+                           <p>I'm Noelia and I have a passion for technology, from Full Stack Developement, to Back End and Data Science & Analytics.
+                               Started as a autodidact and now I'm a graduated Multiplatform Software developer.
+                               I'm also learning about Data Science and Data Analytics.
                                In the projects section are some of the projects I have developed so far.</p>
                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                <div className="item">
-                                   <i className="uil uil-arrow-up"></i>
+                                   <i className="uil uil-arrow-up purple"></i>
                                    <h5>Self-motivated</h5>
                                </div>
                                <div className="item">
-                                   <i className="uil uil-ear"></i>
+                               <i class='bx bxs-group purple mt-3'></i>
+                                   <h5>Team worker</h5>
+                               </div>
+                               <div className="item">
+                                   <i className="uil uil-ear purple"></i>
                                    <h5>Active listening</h5>
                                </div>
                                <div className="item">
-                                   <i className="uil uil-balance-scale"></i>
+                                   <i className="uil uil-balance-scale purple"></i>
                                    <h5>Strong work ethic</h5>
                                </div>
                                <div className="item">
-                                   <i className="uil uil-presentation-edit"></i>
+                                   <i className="uil uil-presentation-edit purple"></i>
                                    <h5>Dedication</h5>
                                </div>
                            </Carousel>
