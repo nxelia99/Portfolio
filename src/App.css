@@ -309,7 +309,6 @@ button > a:hover{
   animation: slideInFromRight ease-in 3s;
 }
 .skill-bx {
-  background: rgba(21, 21, 21, 0.61);
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
@@ -457,7 +456,7 @@ label{
 
 .Projects{
   margin: 5% auto;
-  width: 80%;
+  width: 90%;
 }
 
 #projects{
