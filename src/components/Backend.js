@@ -92,6 +92,12 @@ export const Backend = () => {
                             <h5 className="skills_name">Git</h5>
                         </div>
                     </div>
+                    <div className="skills_data">
+                        <i className='bx bxl-docker'></i>
+                        <div>
+                            <h5 className="skills_name">Docker</h5>
+                        </div>
+                    </div>
                 </div>
             </div> 
         </div> 

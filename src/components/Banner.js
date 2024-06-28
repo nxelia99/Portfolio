@@ -18,13 +18,14 @@ export const Banner = () => {
                             <span class="mx-2">•</span>
                             <p class="purple text-center text-lg-left mb-0">Back End Developer</p>
                             <span class="mx-2">•</span>
-                            <p class="text-center text-lg-left mb-0">Aspiring Data Scientist/Analyst</p>
+                            <p class="text-center text-lg-left mb-0">Aspiring Data Engineer</p>
                         </div>
 
 
-                        <p className="mt-5">I'm a Full Stack developer focused on Back End, building Websites and Applications that leads to the success of the overall product. I'm also focusing my professional career on Data Science and Data Analytics</p>
+                        <p className="mt-5">I'm a Full Stack developer focused on Back End, building Websites and Applications that leads to the success of the overall product. 
+                            I'm also focusing my professional career on Data Engineer.</p>
                         <div className="buttons">
-                            <button className="download"><a download="Noelia-CV-Eng&Esp" href={CV}>Download CV (Eng&Esp)</a></button>
+                            <button className="download"><a download="Noelia-CV-Eng&Esp" href={CV}>Download CV</a></button>
                             <button onClick={()=> console.log('connect')}><a href="#Contact">Let's connect<ArrowRightCircle size={25} /></a></button>
                         </div>
                      </Col>

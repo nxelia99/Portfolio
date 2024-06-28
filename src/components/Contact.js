@@ -38,7 +38,7 @@ export const Contact = () => {
                                         <h3 className="contact_card-title">LinkedIn</h3>
                                     </div>
                                     <span className="contact_card-data">Noelia Fernández López</span>
-                                    <a href="https://www.linkedin.com/in/noelia-fern%C3%A1ndez-l%C3%B3pez-659818215" target="_blank" className="contact_button purple">Write me<i className='bx bx-right-arrow-alt contact_button-icon purple'></i></a>
+                                    <a href="www.linkedin.com/in/noelia-fdez-lópez-659818215" target="_blank" className="contact_button purple">Write me<i className='bx bx-right-arrow-alt contact_button-icon purple'></i></a>
                                 </div>
                                 </div>
                             <div className="contact_content">
@@ -56,7 +56,7 @@ export const Contact = () => {
                                         <div className="mb-3">
                                             <label className="form-label">Message</label>
                                             <textarea className="form-control" id="exampleFormControlTextarea1"
-                                                      rows="3" placeholder="Describe your project" name="message" required></textarea>
+                                                      rows="3" placeholder="Message" name="message" required></textarea>
                                         </div>
                                         <button className="send download">Send Message<i className='bx bx-envelope purple'></i></button>
                                     </div>

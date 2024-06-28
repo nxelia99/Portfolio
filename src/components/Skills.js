@@ -35,7 +35,7 @@ export  const Skills = () => {
                            <h2 className="purple fw-bold">
                                Get to know me!
                            </h2>
-                           <p>I'm Noelia and I have a passion for technology, from Full Stack Developement, to Back End and Data Science & Analytics.
+                           <p>I'm Noelia and I have a passion for technology, from Full Stack Developement, to Back End and Data Engineer.
                                Started as a autodidact and now I'm a graduated Multiplatform Software developer.
                                I'm also learning about Data Science and Data Analytics.
                                In the projects section are some of the projects I have developed so far.</p>

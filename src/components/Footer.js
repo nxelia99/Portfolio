@@ -21,7 +21,7 @@ export const Footer = () => {
                     </ul>
                 <div className="footer_social">
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/noelia-fern%C3%A1ndez-l%C3%B3pez-659818215" target="_blank"><img src={navIcon1} alt="LinkedIn icon" /></a>
+                        <a href="www.linkedin.com/in/noelia-fdez-lópez-659818215" target="_blank"><img src={navIcon1} alt="LinkedIn icon" /></a>
                     </div>
                 </div>
                 <span className="footer_copy purple">&#169; Nxelia. All rights reserved.</span>
