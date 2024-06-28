@@ -35,10 +35,9 @@ export  const Skills = () => {
                            <h2 className="purple fw-bold">
                                Get to know me!
                            </h2>
-                           <p>I'm Noelia and I have a passion for technology, from Full Stack Developement, to Back End and Data Engineer.
+                           <p>I'm Noelia and I have a passion for technology, from Full Stack Developement, to Back End and Data Engineering.
                                Started as a autodidact and now I'm a graduated Multiplatform Software developer.
-                               I'm also learning about Data Science and Data Analytics.
-                               In the projects section are some of the projects I have developed so far.</p>
+                               I'm also learning about Data Science and Data Analytics.</p>
                            <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                <div className="item">
                                    <i className="uil uil-arrow-up purple"></i>

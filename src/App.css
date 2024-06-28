@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-=======
-/* Custom Fonts*/
-
-@font-face{
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Bold.ttf");
-  font-weight: 700;
-}
-@font-face{
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Book.ttf");
-  font-weight: 400;
-}
-
-@font-face{
-  font-family: Centra;
-  src: url("./assets/fonts/CentraNo2-Medium.ttf");
-  font-weight: 500;
-}
->>>>>>> 27d4a9e7be7b36b401e3e82c509ff43080c58079
 
 /*Default*/
 *{
@@ -426,7 +405,9 @@ button > a:hover{
   font-size: 20px;
 }
 
-
+.qualification_title{
+  color: white
+}
 .qualification_sections{
   display: grid;
   grid-template-columns: 0.5fr;
@@ -452,6 +433,7 @@ button > a:hover{
 
 .qualification_data i{
   font-size: 20px;
+  color: gray;
 }
 
 .qualification_data h3{
@@ -460,12 +442,12 @@ button > a:hover{
 
 .qualification_subtitle{
   display: inline-block;
-  color: white;
+  color: gray;
 
 }
 
 .qualification_calendar{
-  color: white;
+  color: gray;
 }
 
 label{
@@ -486,13 +468,13 @@ label{
 }
 
 
-.projects{
+.projects {
   background: rgba(21, 21, 21, 0.53);
   text-align: center;
   padding: 60px 50px;
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
 }
 
 
@@ -753,7 +735,7 @@ textarea{
 }
 
 .item {
-    flex: 1 1 calc(33.333% - 40px);
+    flex: 1 1 calc(33.333% - 100px);
     display: flex;
     justify-content: center;
     align-items: center;

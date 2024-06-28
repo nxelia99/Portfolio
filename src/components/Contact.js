@@ -38,7 +38,7 @@ export const Contact = () => {
                                         <h3 className="contact_card-title">LinkedIn</h3>
                                     </div>
                                     <span className="contact_card-data">Noelia Fernández López</span>
-                                    <a href="www.linkedin.com/in/noelia-fdez-lópez-659818215" target="_blank" className="contact_button purple">Write me<i className='bx bx-right-arrow-alt contact_button-icon purple'></i></a>
+                                    <a href="https://www.linkedin.com/in/noelia-fdez-lópez-659818215" target="_blank" className="contact_button purple">Write me<i className='bx bx-right-arrow-alt contact_button-icon purple'></i></a>
                                 </div>
                                 </div>
                             <div className="contact_content">

@@ -1,4 +1,3 @@
-import {useState, useEffect} from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/avatar1.png";
@@ -23,7 +22,7 @@ export const Banner = () => {
 
 
                         <p className="mt-5">I'm a Full Stack developer focused on Back End, building Websites and Applications that leads to the success of the overall product. 
-                            I'm also focusing my professional career on Data Engineer.</p>
+                            I'm also focusing my professional career on Data Engineering.</p>
                         <div className="buttons">
                             <button className="download"><a download="Noelia-CV-Eng&Esp" href={CV}>Download CV</a></button>
                             <button onClick={()=> console.log('connect')}><a href="#Contact">Let's connect<ArrowRightCircle size={25} /></a></button>

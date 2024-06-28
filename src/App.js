@@ -17,8 +17,8 @@ function App() {
       <Banner />
       <Skills />
       <Languages />
-      <Qualification />
       <Projects />
+      <Qualification />
       <Contact />
       <Footer />
 

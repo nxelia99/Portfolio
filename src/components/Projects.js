@@ -19,47 +19,47 @@ export const Projects = () => {
                                     <img src={image1} alt="Netflix Clone project image"/>
                                     <div className="technologies">
                                         <h6 className='purple'>Technologies:</h6>
-                                        <p className='m-4'>
+                                        <p className='m-3'>
                                             React, JS, Firebase, Redux
                                         </p>
-                                        <div className="icons m-4">
+                                        <div className="icons">
                                             <a href="https://github.com/nxelia99/NetflixCloneReact.git" target="_blank"><i className='bx bxl-github'></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="item align-items-center mt-2 m-auto justify-content-center">
+                            <div className="item align-items-center mt-1 m-auto justify-content-center">
                                 <div className="projectcards align-items-center m-auto">
                                         <h4 className='purple m-3'>Workout Tracker</h4>
                                         <img src={image2} className="djangoimg" alt="FastAPI project icon"/>
                                         <div className="technologies">
-                                            <h6 className='purple'>Technologies:</h6>
+                                            <h6 className='purple mt-1'>Technologies:</h6>
                                             <p>
                                                 Python, FastAPI, MongoDB, Bootstrap
                                             </p>
-                                            <div className="icons">
+                                            <div className="icons mt-4">
                                                 <a href="https://github.com/nxelia99/WorkoutTracker" target="_blank"><i className='bx bxl-github'></i></a>
                                             </div>
                                         </div>
                                     </div>
                             </div>
-                            <div className="item align-items-center mt-2 m-auto justify-content-center align-items-center m-auto">
+                            <div className="item align-items-center m-auto justify-content-center align-items-center m-auto">
                                 <div className="projectcards align-items-center m-auto">
-                                    <h4 className='purple'>Students management system</h4>
+                                    <h4 className='purple mt-3'>Students management system</h4>
                                     <img src={image4} alt="Students management system"/>
                                     <div className="technologies colin">
-                                        <h6 className='purple'>Technologies:</h6>
+                                        <h6 className='purple mt-3'>Technologies:</h6>
                                         <p>
                                             Java, Hibernate, MySQL
                                             <br></br>Pure Backend, no UI.
                                         </p>
-                                        <div className="icons">
+                                        <div className="icons mt-4">
                                             <a href="https://github.com/nxelia99/collintripsweb" target="_blank"><i className='bx bxl-github'></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="item align-items-center mt-2 m-auto justify-content-center align-items-center m-auto">
+                            <div className="item align-items-center mt-3 m-auto justify-content-center align-items-center m-auto">
                                 <div className="projectcards align-items-center m-auto">
                                     <h4 className='purple'>Doctor Appointment Booking</h4>
                                     <img src={image5} alt="Doctor Appointment Booking"/>
@@ -74,17 +74,17 @@ export const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item align-items-center mt-2 m-auto justify-content-center align-items-center m-auto">
+                            <div className="item align-items-center m-auto justify-content-center align-items-center m-auto">
                                 <div className="projectcards align-items-center m-auto">
-                                    <h4 className='purple  m-3'>Frontend Project</h4>
+                                    <h4 className='purple'>Landing Page</h4>
                                     <img src={image3} alt="Frontrend project"/>
                                     <div className="technologies colin">
                                         <h6 className='purple'>Technologies:</h6>
-                                        <p className='m-4'>
+                                        <p>
                                             HTML and CSS
                                         </p>
-                                        <div className="icons m-4">
-                                            <a href="https://nxelia99.github.io/collintripsweb/" target="_blank"> <i className='bx bx-link-external' ></i></a>
+                                        <div className="icons mt-4">
+                                            <a href="https://nxelia99.github.io/collintripsweb/" target="_blank"> <i className='bx bx-link-external mt-3' ></i></a>
                                             <a href="https://github.com/nxelia99/collintripsweb" target="_blank"><i className='bx bxl-github'></i></a>
                                         </div>
                                     </div>
